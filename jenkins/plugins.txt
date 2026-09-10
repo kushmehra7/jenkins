@@ -1,0 +1,8 @@
+# Essential Jenkins Plugins for Pipeline and Docker
+git:latest
+github:latest
+workflow-aggregator:latest
+docker-workflow:latest
+pipeline-stage-view:latest
+credentials-binding:latest
+timestamper:latest

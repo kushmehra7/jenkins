@@ -1,0 +1,43 @@
+# Environment variables and secrets
+.env
+*.env
+!.env.example
+
+# Jenkins runtime data and logs
+jenkins_home/
+*.log
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Tooling and testing caches
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Distribution and builds
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# IDE & Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
